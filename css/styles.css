@@ -15,7 +15,7 @@ body {
 
 /** SECCIÓN HORARIO **/
 .fila-horario-caja {
-  margin: 50px;
+  margin: 30px;
 }
 .fila-horario-caja p {
   padding: 16px;
@@ -101,15 +101,16 @@ h2 {
   font-weight: 600;
   font-size: 20px;
   color: #5b3570;
+  padding-bottom: 8px ;
+}
+.detalle__servicio p{
+  padding-bottom: 10px ;
 }
 .detalle__servicio span {
   color: #605dec;
 }
 .detalle__servicio {
   margin: 24px;
-}
-.detalle__servicio p {
-  margin-top: 8px;
 }
 
 /** SECCION DE CONTACTOS **/
@@ -120,12 +121,24 @@ h2 {
 .contenedor__contacto {
   padding: 32px;
 }
+.fila-contacto-caja{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 20px;
+}
+.img-contacto img{
+  width: 100px;
+}
+.fila-contacto-caja{
+  padding: 20px;
+}
 
 /** SECCIÓN EQUIPO DE TRABAJO **/
 #seccion__team {
   background-color: var(--bg__team);
 }
-.header__team{
+.header__team {
   color: #dadada;
 }
 .tarjeta__team {
@@ -145,13 +158,13 @@ h2 {
 .detalle__tarjeta {
   padding: 20px;
 }
+.detalle__tarjeta p{
+  padding-top: 8px;
+}
 .detalle__tarjeta h4 {
   font-weight: bold;
   font-size: 18px;
   color: #333;
-  margin-bottom: 10px;
-}
-.detalle__tarjeta span {
   display: block;
   font-size: 14px;
   color: #666;
