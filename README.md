@@ -7,3 +7,6 @@ con el catedrático: <strong>Ing. JONATHAN HERBERT RAJO CASTELLANOS</strong></p>
   <strong><li>Ceren Alvarez, Manuel de Jesus</li></strong>
   <strong><li>Cruz Alvarado, Kelyn Marcela</li></strong>
 </ol>
+
+<h3>Enlace a Figma</h3>
+https://www.figma.com/file/QWqVtKhDVvOLhlQF5OQkyJ/Sal%C3%B3n-de-Belleza?type=design&node-id=209%3A452&mode=design&t=Mj4Cvn3fkxGS2aZ3-1
