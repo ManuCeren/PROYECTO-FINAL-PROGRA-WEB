@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="/JS/app.js"></script>
     <title>Iris Salón</title>
 </head>
 
 <body>
-    <header>
+
+    <header id="encabezado__pagina">
         <input type="checkbox" id="chk1">
         <div class="logo">
             <span>LOGO</span>
@@ -24,9 +26,9 @@
             <li><a href="#seccion__contacto">Contacto</a></li>
             <li><a href="#seccion__team">Equipo</a></li>
             <li>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/explore" target="_blank"><i class="fab fa-tiktok"></i></a>
             </li>
         </ul>
         <div class="menu">
@@ -44,7 +46,7 @@
         <div class="contenedor__horario">
             <div class="fila-horario">
                 <div class="fila-horario-caja">
-                    <img src="/IMG/icon_clock.png" alt="Reloj">
+                    <img src="/IMG/icon_clock.png" alt="Imagen de un reloj">
                 </div>
                 <div class="fila-horario-caja">
                     <h2>Horario Laboral</h2>
@@ -56,7 +58,7 @@
     </section>
 
     <!-- SECCIÓN DE INICIO -->
-    <main>
+    <main id="seccion__principal">
         <section id="seccion__bienvenida">
             <div class="contenedor__bienvenida">
                 <div class="fila-bienvenida">
@@ -66,13 +68,16 @@
                     <div class="fila-bienvenida-caja">
                         <h2>Bienvenida/o</h2>
                         <p>¡Bienvenida a nuestro Salón de Belleza!</p>
-                        <p>En nuestro refugio de elegancia y bienestar, te damos la más cálida bienvenida a una experiencia
+                        <p>En nuestro refugio de elegancia y bienestar, te damos la más cálida bienvenida a una
+                            experiencia
                             transformadora. En cada visita, te invitamos a sumergirte en un mundo donde la belleza y la
                             confianza se entrelazan. Con un equipo de talentosos estilistas y especialistas en cuidado
-                            de la piel, estamos comprometidos a realzar tu belleza natural mientras te brindamos momentos de
+                            de la piel, estamos comprometidos a realzar tu belleza natural mientras te brindamos
+                            momentos de
                             relajación y rejuvenecimiento. Ya sea que estés buscando un cambio de imagen radical, un
                             tratamiento facial revitalizante o simplemente un espacio para desconectar del ajetreo
-                            diario, estamos aquí para atenderte con dedicación y pasión. ¡Déjanos ser tu cómplice en el camino
+                            diario, estamos aquí para atenderte con dedicación y pasión. ¡Déjanos ser tu cómplice en el
+                            camino
                             hacia tu mejor versión!</p>
                     </div>
                 </div>
@@ -86,13 +91,13 @@
             <h2>Últimos Trabajos</h2>
             <div class="fila-trabajos">
                 <div class="trabajos">
-                    <img src="/IMG/alisado.jpg" alt="Alisado">
+                    <img src="/IMG/alisado.jpg" alt="Trabajo de alisado">
                 </div>
                 <div class="trabajos">
-                    <img src="/IMG/pedicure.jpg" alt="Pedicure">
+                    <img src="/IMG/pedicure.jpg" alt="Trabajo de pedicure">
                 </div>
                 <div class="trabajos">
-                    <img src="/IMG/peinado.jpg" alt="Peinado">
+                    <img src="/IMG/peinado.jpg" alt="Trabajo de peinado">
                 </div>
             </div>
         </div>
@@ -124,7 +129,7 @@
                 </div>
             </div>
             <div class="tarjeta__servicio">
-                <img src="/IMG/peinado.jpg" alt="Corte de pelo y peinado">
+                <img src="/IMG/peinado.jpg" alt="Manicura y pedicura">
                 <div class="detalle__servicio">
                     <h3>Manicura y Pedicura Spa</h3>
                     <p><span>Descripción: </span>Sumérgete en la indulgencia con nuestra manicura y pedicura spa. Con
@@ -240,7 +245,8 @@
             <div class="fila-tarjetas">
                 <div class="tarjeta__team">
                     <picture class="tarjeta__trabajadora">
-                        <img src="/IMG/trabajadora1.jpg" alt="Fotografía de Ana Martinez" title="Ana Martin">
+                        <img src="/IMG/trabajadora1.jpg" alt="Fotografía de Ana Martinez"
+                            title="Fotografía de nuestra estilista principal">
                     </picture>
                     <div class="detalle__tarjeta">
                         <h4>Ana Martinez</h4>
@@ -253,7 +259,7 @@
                 </div>
                 <div class="tarjeta__team">
                     <picture class="tarjeta__trabajadora">
-                        <img src="/IMG/trabajadora2.jpg" alt="Fotografía de Ana Martinez">
+                        <img src="/IMG/trabajadora2.jpg" alt="Fotografía de nuestra esteticista facial">
                     </picture>
                     <div class="detalle__tarjeta">
                         <h4>María López</h4>
@@ -264,7 +270,7 @@
                 </div>
                 <div class="tarjeta__team">
                     <picture class="tarjeta__trabajadora">
-                        <img src="/IMG/trabajadora3.jpg" alt="Fotografía de Ana Martinez">
+                        <img src="/IMG/trabajadora3.jpg" alt="Fotografía de nuestra masajista terapéutica">
                     </picture>
                     <div class="detalle__tarjeta">
                         <h4>Laura García</h4>
@@ -278,7 +284,7 @@
     </section>
 
     <!-- PIE DE PÁGINA -->
-    <footer>
+    <footer id="pie__pagina">
         <p>©2024 Iris Salón. Todos los derechos reservados.</p>
     </footer>
 
