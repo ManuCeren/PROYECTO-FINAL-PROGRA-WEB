@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script defer src="../JS/app.js"></script>
     <title>Iris Salón</title>
+
 </head>
 
 <body>
@@ -18,7 +20,7 @@
     <header id="encabezado__pagina">
         <input type="checkbox" id="chk1">
         <div class="logo">
-            <img src="../IMG/maquillaje.png" alt="Logo">
+            <img src="IMG/Logo2.png" height="25%" width="35%" alt="Logo">
         </div>
         <ul>
             <li><a href="#seccion__horarios">Inicio</a></li>
@@ -27,9 +29,9 @@
             <li><a href="#seccion__contacto">Contacto</a></li>
             <li><a href="#seccion__team">Equipo</a></li>
             <li>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61560546733302&mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/irissalon10/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@iris_salon.com" target="_blank"><i class="fab fa-tiktok"></i></a>
             </li>
         </ul>
         <div class="menu">
@@ -90,8 +92,8 @@
     </main>
 
     <!-- SECCION ÚLTIMOS TRABAJOS -->
-    <section id="seccion__trabajos">
-        <div class="contenedor__trabajos">
+    <!-- <section id="seccion__trabajos"> -->
+        <!-- <div class="contenedor__trabajos">
             <h2>Últimos Trabajos</h2>
             <div class="fila-trabajos">
                 <div class="trabajos">
@@ -104,6 +106,67 @@
                     <img src="../IMG/peinado.jpg" alt="Trabajo de peinado">
                 </div>
             </div>
+        </div> -->
+        <!-- <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="IMG/alisado.jpg" class="d-block w-100" width="50%" height="auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="IMG/pedicure.jpg" class="d-block w-100" width="50%" height="auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="IMG/peinado.jpg" class="d-block w-100" width="50%" height="auto" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section> -->
+    <section id="seccion__trabajos">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="alisado.html" target="_blank">
+                        <img src="../IMG/alisado.jpg" class="d-block w-100 carousel-image" alt="Trabajo de alisado">
+                    </a>
+                    
+                </div>
+                <div class="carousel-item">
+                    <a href="pedicure.html" target="_blank">
+                        <img src="../IMG/pedicure.jpg" class="d-block w-100 carousel-image" alt="Trabajo de pedicure">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="peinado.html" target="_blank">
+                        <img src="../IMG/peinado.jpg" class="d-block w-100 carousel-image" alt="Trabajo de peinado">
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
@@ -214,15 +277,21 @@
             <div class="fila-contacto">
                 <div class="fila-contacto-caja">
                     <div class="img-contacto">
-                        <img src="../IMG/icon_location.svg" alt="Icono de ubicación">
+                        <a href="https://maps.app.goo.gl/CZs4gDbcwz4f2x2m6" target="_blank">
+                            <img src="../IMG/icon_location.svg" alt="Icono de ubicación">
+                        </a>
+                        
                     </div>
                     <div class="detalle-contacto">
-                        <p>83 avenida norte, pasaje Arrue Comunidad 12 de octubre # 15 Colonia Escalon San Salvador</p>
+                        <p>Colonia Santa Eugenia, Sonsonate</p>
                     </div>
                 </div>
                 <div class="fila-contacto-caja">
                     <div class="img-contacto">
-                        <img src="../IMG/icon_phone.svg" alt="Icono de teléfono">
+                        <a href="https://web.whatsapp.com/" target="_blank">
+                            <img src="../IMG/icon_phone.svg" alt="Icono de teléfono">
+                        </a>
+                        
                     </div>
                     <div class="detalle-contacto">
                         <p>Cel : 7006 - 6200</p>
@@ -231,11 +300,13 @@
                 </div>
                 <div class="fila-contacto-caja">
                     <div class="img-contacto">
-                        <img src="../IMG/icon_email.svg" alt="Icono de Gmail">
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                            <img src="../IMG/icon_email.svg" alt="Icono de Gmail">
+                        </a>
+                        
                     </div>
                     <div class="detalle-contacto">
-                        <p>support@saloniris.com</p>
-                        <p>contacto@saloniris.com</p>
+                        <p>iris.salon2002@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -291,7 +362,7 @@
     <footer id="pie__pagina">
         <p>©2024 Iris Salón. Todos los derechos reservados.</p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
