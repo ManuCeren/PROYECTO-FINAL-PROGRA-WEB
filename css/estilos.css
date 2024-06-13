@@ -130,101 +130,103 @@ header .menu {
   font-weight: bold;
 }
 
-/** SECCIÓN HORARIO **/
-.fila-horario-caja {
-  margin: 30px;
-}
-.fila-horario-caja p {
-  padding: 16px;
-  text-align: center;
-}
-
-/** SECCIÓN DE BIENVENIDA **/
-#seccion__bienvenida {
+/** SECCIÓN DE TRABAJOS **/
+#seccion__trabajos {
   background-color: var(--bg__services);
 }
-.fila-bienvenida,
-.fila-horario,
-.fila-trabajos,
-.fila-contacto,
-.fila-tarjetas {
+.fila-trabajos
+{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.fila-bienvenida-caja img {
+.fila-trabajos-caja img {
   min-width: 100%;
   height: auto;
 }
-.fila-bienvenida-caja {
+.fila-trabajos-caja {
   width: 50%;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
-.fila-bienvenida-caja p {
+
+.fila-trabajos-caja h2
+{
+  text-align: center;
+  padding-top: 10px;
+
+}
+.fila-trabajos-caja p {
   line-height: 1.5;
   font-size: 20px;
   font-weight: 400;
   padding: 20px;
 }
-/* Estilos generales */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa;
-  color: #343a40;
-  margin: 0;
-  padding: 0;
-}
-
-/* Contenedor principal */
-.container {
-  background-color: #fff;
-  padding: 2rem;
-  margin-top: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-}
-
-/* Estilo para las imágenes */
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-/* Estilo para el encabezado */
-h1 {
-  font-size: 2.5rem;
-  color: #007bff;
-  margin-bottom: 1rem;
+/** ESTILOS DEL BOTÓN DE VOLVER **/
+.fila-trabajos-caja .volver-button {
+  position: relative;
+  z-index: 2;
   text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
-/* Estilo para los párrafos */
-p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
-  text-align: justify;
-}
-
-/* Estilo para el botón */
-.btn {
-  display: block;
-  width: fit-content;
-  margin: 0 auto;
-  padding: 0.5rem 2rem;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 4px;
-  background-color: #007bff;
+.volver-button .btn {
+  background: linear-gradient(to right, #834d9b, #d04ed6);
   color: #fff;
+  padding: 15px 50px;
   text-decoration: none;
-  text-align: center;
-  transition: background-color 0.3s;
+  border-radius: 70px;
+  font-weight: bold;
 }
-
-.btn:hover {
-  background-color: #0056b3;
+/** FOOTER **/
+footer {
+  background-color: var(--bg__footer);
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+}
+/** MEDIAS QUERIES **/
+@media (max-width: 1000px) {
+  header ul {
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 100px);
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.5s linear;
+  }
+  header .menu {
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
+  #chk1:checked ~ ul {
+    right: 0;
+  }
+  .fila-trabajos-caja {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .header .logo {
+    font-size: 10px;
+    margin-left: 8px;
+  }
+  .header ul {
+    width: 100%;
+  }
+  .fila-trabajos-caja p {
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  .encabezado-img h1 {
+    font-size: 28px;
+    padding-top: 60%;
+    text-align: center;
+  }
 }

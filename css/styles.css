@@ -188,7 +188,13 @@ header .menu {
   border-radius: 20px;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4);
 }
-.carousel-image {
+.carousel-inner,
+.carousel-item
+{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.img-fluid rounded-start {
   max-width: 40%; /* Ajusta el tamaño deseado */
   height: auto;   /* Mantiene la relación de aspecto */
   margin: 0 auto; /* Centra las imágenes dentro del carrusel */
